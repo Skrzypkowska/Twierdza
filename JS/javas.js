@@ -5,4 +5,3 @@ przycisk.addEventListener("click", () => {
     
     naglowek.remove("naglowek");
 });
-
