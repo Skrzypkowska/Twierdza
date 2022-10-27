@@ -1,0 +1,123 @@
+.back {
+    background-color: rgb(145, 109, 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naglowek {
+    color: rgb(0, 104, 14);
+    background-color: rgb(170, 139, 93);
+}
+
+.text {
+    color: rgb(0, 49, 0);
+    background-color: rgb(170, 139, 93);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.cell {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+.tabela {
+    border-spacing: 0;
+    border-top-left-radius: 25%;
+}
+
+.nawigacja {
+    display: inline;
+    color: green;
+    text-decoration: none;
+    border: 1px green outset;
+    padding: 10px;
+    background-color: rgb(170, 139, 93);
+    background-size: 20%;
+}
+
+.LG {
+    border-top-left-radius: 50px;
+}
+
+.headline {
+    font-weight: bold;
+}
+
+.caption {
+    border-color: white;
+    border-style: solid;
+    background-color: olive;
+}
+
+.row:hover {
+    background-color: darkgreen;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: green;
+    border-spacing: 5px;
+    background-color: darkgoldenrod;
+}
+
+.link:visited {
+    background-color: olive;
+    color: black;
+}
+
+.link:focus {
+    outline: 2px solid chocolate;
+}
+
+.link:hover {
+    color: rgb(110, 84, 28);
+    border-spacing: 5px;
+    border-width: 1px;
+    border-color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.nawigacja:hover{
+    background-color: darkgoldenrod;
+}
+
+.link:active {
+    color: wheat;
+}
+
+.dzielnica {
+    color: rgb(78, 78, 0);
+    font-weight: bold;
+}
+
+.punkt {
+    color: black;
+    font-weight: normal;
+}
+
+.header {
+    width:100%;
+    height:20%;
+    top:0;
+    left:0;
+    position: sticky;
+  }
+
+.navigation {
+    position: sticky;
+    top: 88px;
+}
+
+.main {
+    max-width: 999px;
+}
